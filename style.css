@@ -357,7 +357,7 @@ footer .bottom-bar{
     }
    
     .navbar ul li a{
-        font-size: 14px;
+        font-size: 12px;
         justify-content: center;
     }
 
@@ -368,13 +368,13 @@ footer .bottom-bar{
     }
 
     .main h4{
-        font-size: 24px;
+        font-size: 25px;
     }
     .main p.title{
-        font-size: 12px;
+        font-size: 14px;
     }
     .main p.subtitle{
-        font-size: 8px;
+        font-size: 10px;
 }
 
     .about .info h3{

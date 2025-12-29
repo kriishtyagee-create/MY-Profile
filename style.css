@@ -127,6 +127,7 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 0 50px;
+    margin-bottom: 60px;
 }
 
 .skills .left{
@@ -137,6 +138,7 @@ body{
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .skills .left .info p{
@@ -175,6 +177,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 
 .works-list .item img{
@@ -220,3 +223,200 @@ body{
     font-size: 14px;
     font-weight: bold;
 }
+
+footer{
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    position: relative;
+}
+
+footer .cols{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+footer .cols .about-cols{
+    flex: 3;
+}
+
+footer .cols .about-cols h3{
+    color: #ffb742;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-cols p{
+    color: #cccccc;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+footer .cols .links-cols{
+    flex: 3;
+}
+
+footer .cols .links-cols h4{
+    color: #cccccc;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-cols a{
+    display: block;
+    text-decoration: none;
+    color:#7b7b7b;
+    line-height: 33px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-cols a:hover{
+    color: #ffb742;
+}
+
+footer .cols .social-cols{
+    flex: 3;
+}
+
+footer .cols .social-cols h4{
+    color: #cccccc;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+footer .cols .social-cols a{
+    display: block;
+    text-decoration: none;
+    color:#7b7b7b;
+    line-height: 35px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .social-cols a:hover{
+    color: #ffb742;
+}
+
+footer .cols .social-cols a i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+footer .bottom-bar{
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about img{
+        width: 300px;
+        margin-top: 0;
+    }
+
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .left, .skills .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .navbar ul{
+        margin-top: 10px;
+    }
+    
+    .content{
+        padding: 30px 30px 60px;
+    }
+}
+
+@media  screen and (max-width: 769px) {
+
+    .navbar h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+   
+    .navbar ul li a{
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    .main {
+        margin-top: 200px;
+        height: 320px;
+        justify-content: start;
+    }
+
+    .main h4{
+        font-size: 36px;
+    }
+    .main p.title{
+        font-size: 18px;
+    }
+    .main p.subtitle{
+        font-size: 13px;
+}
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .left{
+        width: 100%;
+        text-align: left;
+    }
+
+    .skills .left .info h3{
+        font-size: 24px;
+    }
+
+    .skills .left .info p{
+        font-size: 16px;
+    }
+
+    .skills .right{
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 50px;
+
+    }
+
+    .content .item{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer .cols{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    footer .cols .about-cols,
+    footer .cols .links-cols,
+    footer .cols .social-cols{
+        flex: none;
+        margin-bottom: 30px;}
+    }

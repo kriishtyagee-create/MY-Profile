@@ -12,8 +12,8 @@ body{
     height: 100vh;
 }
 
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -111,6 +111,7 @@ html {
     border-radius: 50%;
     border: #ffb742 10px solid;
     margin-top: 6%;
+    object-fit: cover;
 }
 
 .about .info h3{
@@ -230,7 +231,7 @@ html {
 
 footer{
     background: #1c1c1c;
-    padding: 80px 50px 40px;
+    padding: 80px 50px 4opx;
     position: relative;
 }
 
@@ -326,6 +327,13 @@ footer .bottom-bar{
     .about img{
         width: 300px;
         margin-top: 0;
+    }
+
+    .about .info h3{
+        font-size: 28px;
+    }
+    .about .info p{
+        font-size: 16px;
     }
 
     .skills{
